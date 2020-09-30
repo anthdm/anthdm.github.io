@@ -1,0 +1,130 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #F7F7F7 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+.nav-link {
+    color: white !important;
+}
+
+.masthead {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.966) 75%, #000000 100%), url("../img/podcast_cover.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.masthead h1 {
+    font-size: 80px;
+}
+
+.masthead h1 span {
+    color: #FF5A5F;
+}
+
+.masthead .lead {
+    max-width: 700px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .masthead h1 {
+        font-size: 66px;
+    }
+}
+
+section {
+    padding: 100px 0px 100px 0px;
+}
+
+section h1 {
+    font-size: 56px;
+}
+
+section p {
+    color: #425466;
+    letter-spacing: .2px;
+}
+
+.about {
+    background-color: black;
+    color: white;
+}
+
+.about p {
+    color: white;
+}
+
+.listen h1 {
+    color: #0a2540;
+}
+
+.listen .listen-icons {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.listen-icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: white;
+    padding: 120px 0px;
+    background-color: #15202B;
+}
+
+.footer ul {
+    list-style: none;
+}
+.footer li {
+    margin-top: 8px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer img {
+    height: 60px;
+    width: 60px;
+}
+
+.email-subscribe {
+    max-width: 500px;
+    width: 100%;
+}
+
+.subscribe {
+    padding-top: 0px;
+}
+
+.btn-white {
+    border-color: white !important;
+    color: white !important;
+}
+
+.sub-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
